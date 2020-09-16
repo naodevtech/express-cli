@@ -6,7 +6,13 @@ A future node_modules package to easer the creation of pattern, routes and contr
 
 ## Installation
 
-Clone the directory and put it in your project directly at the root and type 
+Clone the directory and put it in your project directly at the root and inside the module type 
+
+```bash
+npm install || npm i 
+```
+
+Add these two lines in the "scripts" object inside your package.json project
 
 ```bash
 npm install || npm i 
