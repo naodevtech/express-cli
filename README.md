@@ -4,7 +4,7 @@ A future node_modules package to facilitate the creation of architecture, routes
 
 ## Installation
 
-Clone the repository and type 
+Clone the directory and put it in your project directly at the rootand type 
 
 ```bash
 npm install || npm i 
