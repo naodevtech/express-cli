@@ -15,7 +15,8 @@ npm install || npm i
 Add these two lines in the "scripts" object inside your package.json project
 
 ```bash
-npm install || npm i 
+    "generate:pattern": "node ./express-cli/generate.mvc.js",
+    "generate:router": "node ./express-cli/generate.router.js"
 ```
 
 ## Usage
