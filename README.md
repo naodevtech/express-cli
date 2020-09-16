@@ -16,3 +16,10 @@ npm install || npm i
 npm run generate:pattern
 npm run generate:router
 ```
+## Coming soon
+
+Feature with possibility to choose between several patterns
+
+Feature with the possibility of choosing which type of route we want (get, post, delete or put)
+
+Feature with possibility of setting up error management automatically via the CLI
