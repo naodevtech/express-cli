@@ -4,7 +4,7 @@ const controllerAsync = `const models = require('../models')\n\nmodule.exports =
 
 function createControllerService() {
   fs.writeFile(
-    `../controllers/${process.argv[2]}.js`,
+    `./controllers/${process.argv[2]}.js`,
     controllerAsync,
     (err) => {
       if (err) return err;
