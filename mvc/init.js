@@ -46,10 +46,10 @@ function generateServiceDirectorie() {
 }
 
 function generateUtilitiesDirectorie() {
-  if (fs.existsSync('./utilies')) {
+  if (fs.existsSync('./utilities')) {
     return console.error(colors.yellow('Folder ./services already exist ! '));
   }
-  fs.mkdir('./utilies', (err) => {
+  fs.mkdir('./utilities', (err) => {
     if (err) console.error(err);
     console.log(colors.green('New directory /.services successfully created'));
   });
@@ -62,4 +62,4 @@ function generateMVCArchitecture() {
   generateServiceDirectorie();
   generateUtilitiesDirectorie();
 }
-generateMVCArchitecture();
+module.exports = generateMVCArchitecture;
