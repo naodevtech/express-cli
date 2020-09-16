@@ -22,7 +22,7 @@ npm install || npm i
 
 ```python
 npm run generate:pattern
-npm run generate:router
+npm run generate:router yourNameRoute
 ```
 ## Coming soon
 
