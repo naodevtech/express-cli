@@ -47,11 +47,11 @@ function generateServiceDirectorie() {
 
 function generateUtilitiesDirectorie() {
   if (fs.existsSync('./utils')) {
-    return console.error(colors.yellow('Folder ./services already exist ! '));
+    return console.error(colors.yellow('Folder ./utils already exist ! '));
   }
   fs.mkdir('./utils', (err) => {
     if (err) console.error(err);
-    console.log(colors.green('New directory /.services successfully created'));
+    console.log(colors.green('New directory /.utils successfully created'));
   });
 }
 
