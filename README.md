@@ -1,5 +1,5 @@
 # Express-cli
-
+### Version 1.0.0
 A future node_modules package to easer the creation of pattern, routes and controllers for NodeJS APIs
 
 <img src="https://github.com/naodevtech/express-cli/blob/master/mockup/express_cli_mockup.png" />
