@@ -23,7 +23,7 @@ Add these two lines in the "scripts" object inside your package.json project
 
 ```python
 npm run generate:pattern
-npm run generate:router yourNameRoute
+npm run generate:router yourRouteName
 ```
 ## Coming soon
 
